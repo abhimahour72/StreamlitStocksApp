@@ -6,7 +6,7 @@ import pandas as pd
 #import yfinance as yf
 
 initialData = pd.read_csv("dd.csv")
-st.title("Agastya Data assignment's solution")
+st.title("Stocks App")
 st.subheader("Initial Data")
 st.text("The data in the table below is what I first acquired from Yahoo Finance using the Yfinance \n"
         + "package. The date for which the stock's closing price is downloaded is shown in the \ncoloumn-header of "
